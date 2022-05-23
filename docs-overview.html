@@ -1,0 +1,31 @@
+---
+layout: page
+title: Documentaion
+description: "Meta description for Support page"
+keywords: "responsive,jekyll,minimal template"
+---
+<div class="topics-area bg-color1">
+         <div class="topics-wrapper section-spacing bminus-30">
+            <div class="container">
+               <div class="row">
+               {% for link in site.data.docs_navigation %}
+                  {% assign active = nil %}
+                  <div class="col-md-6 col-lg-4">
+                     <article class="topics-service bg-color3 wow fadeIn" data-wow-duration="3s">
+                        <header class="topics-title">
+                           <h2 class="heading-4 text-capitalize">{{ link.name }} </h2>
+                        </header>
+                        <ul class="topics-list list-inline">
+                           {% for sublink in link.submenu %}
+                           <li><a href="{{ sublink.url  | relative_url }}">{{ sublink.text }} </a></li>
+                           {% endfor %}
+                        </ul>
+                     </article>
+                  </div>
+                  {% endfor %}			  
+               </div>
+            </div>
+         </div>
+      </div>
+</section>
+<!-- End Topics Area -->

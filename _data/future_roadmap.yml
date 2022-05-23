@@ -1,0 +1,19 @@
+- name: "MVP: Heuristic Model & Local Development"
+  date: Stage I
+  description: Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus 
+  
+- name: Deploying your first model
+  date: Stage II
+  description: AContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.from 45 BC
+  
+- name: Machine Learning
+  date: Stage III
+  description: elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus 
+  
+- name: MLOps
+  date: Stage IV
+  description: It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially .
+
+- name: Iterating on models
+  date: Stage V
+  description: It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially .

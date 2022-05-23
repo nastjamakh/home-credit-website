@@ -1,0 +1,69 @@
+- name: I Business Problem
+  url: /docs/1-introduction/
+  submenu:
+  - text: What problem are we trying to solve
+    url: /docs/1-introduction/
+  - text: ML vs no ML
+    url: /docs/1-introduction#ml-vs-no-ml
+  
+- name: II Heuristic Model
+  url: /docs/2-heuristic-model/
+  submenu:
+  - text: MVP model
+    url: /docs/1-introduction/mvp-model
+  - text: Project setup
+    url: /docs/1-introduction/project-setup
+  - text: Unit Tests
+    url: /docs/1-introduction/unit-tests
+  - text: CI/CD pipeline
+    url: /docs/1-introduction/ci-cd-pipeline
+  
+- name: III Deployment
+  url: /docs/3-first-deployment/
+  submenu:
+  - text: "Cloud storage: model artifacts"
+    url: /docs/3-first-deployment/
+  - text: Container registry
+    url: /docs/3-first-deployment/container-registry
+  - text: Training on the cloud
+    url: /docs/3-first-deployment/training
+  - text: Deploying web app
+    url: /docs/3-first-deployment/deployment
+
+- name: IV Machine Learning
+  url: /docs/4-modelling/
+  submenu:
+  - text: Feature engineering (manual)
+    url: /docs/4-modelling/feature-engineering#domain
+  - text: Feature engineering (automated)
+    url: /docs/4-modelling/feature-engineering#automated
+  - text: Modelling & Model selection
+    url: /docs/4-machine-learning/modelling
+  - text: Feature Selection
+    url: /docs/4-machine-learning/feature-selection
+  - text: Dealing with imbalanced dataset
+    url: /docs/4-machine-learning/imbalanced-data
+  - text: Explaining our model
+    url: /docs/4-machine-learning/explainability
+
+- name: V MLOps
+  url: /docs/5-mlops/
+  submenu:
+  - text: Logging and alerting
+    url: /docs/5-mlops/logging
+  - text: Monitoring performance
+    url: /docs/5-mlops/monitoring#performance
+  - text: Monitoring KPIs
+    url: /docs/5-mlops/monitoring#kpis
+  - text: Modular ML pipelines
+    url: /docs/5-mlops/ml-pipelines
+  - text: Scheduling jobs
+    url: /docs/5-mlops/scheduling
+  - text: Experimentation
+    url: /docs/5-mlops/experimentation
+
+# - name: VI Experimentation
+#   url: /docs/6-experimentation/
+#   submenu:
+#   - text: iterat
+#     url: /docs/6-experimentation/

@@ -1,0 +1,33 @@
+- icon: /assets/images/001-computer.png
+  title: Go from a business problem to an MVP product
+  subtitle: The standard chunk of Lorem Ipsum used since the 1500s is reproduced .
+  
+- icon: /assets/images/002-support.png
+  title: Decide when to use ML and when to start with a rule-based approach
+  subtitle: Not every problem requires a Machine Leanring solution, especially in the beginning.
+  
+- icon: /assets/images/004-coupon.png
+  title: Apply development best practices
+  subtitle: Make your code readable and easy to debug with code formatting, typing hints, unit tests and Makefile.
+  
+- icon: /assets/images/005-payment-method.png
+  title: Build a data science CI/CD pipeline
+  subtitle: Automate your testing, training and deployments with CircleCI
+  
+- icon: /assets/images/006-social-care.png
+  title: Train and deploy your project with AWS cloud services
+  subtitle: But I must explain to you how all this mistaken idea of denouncing pleasure .
+  
+- icon: /assets/images/006-social-care.png
+  title: Maintain your service with MLOps tools
+  subtitle: Add data quality and metrics monitoring, crashing alerting and more
+
+- icon: /assets/images/006-social-care.png
+  title: Iterate on your model with experiment tracking
+  subtitle: Use Weight&Biases and modular ML pipelines to easily iterate on models and features.
+
+- icon: /assets/images/006-social-care.png
+  title: Improve your model with atomated feature engineering
+  subtitle: 
+  
+  

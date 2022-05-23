@@ -1,0 +1,18 @@
+- title: Source Code
+  icon: /assets/images/service-icon2.png
+  description: Full source code is available on GitHub
+  button_label: See Code
+  url: /pages/explore-topics/
+  
+- title: Toolkit
+  icon: /assets/images/service-icon.png
+  description:  All the tools used are publically available. If you create a new AWS account, youu have a free trils period.
+  button_label: See Tools
+  url: /pages/faq/
+  
+- title: Alternatives
+  icon: /assets/images/service-icon3.png
+  description:  Certain tools were choosen due to personal prefernces. In many cases an alternative is descibed with implementation suggestions.
+  button_label: Read Docs
+  url: /docs/left-sidebar-example
+  

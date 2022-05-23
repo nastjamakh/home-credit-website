@@ -1,0 +1,34 @@
+<!-- Start Slider  Area -->
+<section class="slider-area">
+    <div class="slider-wrapper full-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                     <div class="slider-carousel owl-carousel">
+                       {% assign data =  site.data.slider %}
+                         {% for slider in data %}
+                           <div class="slider-content wow fadeIn" data-wow-duration="3s">
+                             <h1 class="heading-1">{{slider.title}}</h1>
+                             <h1 class="heading-2">{{slider.subtitle}}</h1>
+                             <p><a href="{{slider.button_link}}" class="btn-style3 btn wow fadeInDown" data-wow-duration="500ms">{{slider.button_label}}</a></p>
+                           </div>
+                          {% endfor %}
+                     </div>
+                </div>
+                <div id="image-container" class="home-image">
+                     <div class="slider-carousel owl-carousel">
+                      <!--<span class="svg-image"></span>
+                      <svg>
+                        <use xlink:href="{{ '/assets/images/absurd_design_pizza_house.svg' | relative_url }}" />
+                      </svg>-->
+                      <img src="{{ '/assets/images/absurd_design_pizza_house.svg' | relative_url }}" alt="pizza home" />
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Slider Area -->
+
+
+ 
