@@ -25,6 +25,7 @@ github_username:  nastjamakh
 
 # Build settings
 markdown: kramdown
+syntax_highlighter: rouge
 theme: minima
 plugins:
   - jekyll-feed
@@ -132,10 +133,3 @@ feed:
   collections:
     posts:
       path: "/index.xml"
-        
-
-kramdown:
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true

@@ -238,6 +238,8 @@ th {
     text-align: inherit
 }
 
+
+
 label {
     display: inline-block;
     margin-bottom: .5rem
@@ -16135,7 +16137,7 @@ ul.slimmenu>li:first-child {
 .highlight .kp,
 .highlight .kr,
 .highlight .nt {
-    color: #729fcf
+    color: #ffd700
 }
 
 .highlight .cp,
@@ -16154,7 +16156,7 @@ ul.slimmenu>li:first-child {
 .highlight .mo,
 .highlight .nb,
 .highlight .no {
-    color: #8ae234
+    color: #e83e8c
 }
 
 .highlight .o {

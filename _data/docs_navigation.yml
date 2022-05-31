@@ -1,3 +1,13 @@
+- name: Set Up | Start here
+  url: /docs/0-setup/
+  submenu:
+  - text: Development setup
+    url: /docs/0-setup/
+  - text: Loading data
+    url: /docs/0-setup/#data
+  - text: Setting up project locally
+    url: /docs/0-setup/#project-setup
+    
 - name: I Business Problem
   url: /docs/1-introduction/
   submenu:
@@ -10,13 +20,13 @@
   url: /docs/2-heuristic-model/
   submenu:
   - text: MVP model
-    url: /docs/1-introduction/mvp-model
+    url: /docs/2-heuristic-model
   - text: Project setup
-    url: /docs/1-introduction/project-setup
+    url: /docs/2-heuristic-model/project-setup
   - text: Unit Tests
-    url: /docs/1-introduction/unit-tests
+    url: /docs/2-heuristic-model/unit-tests
   - text: CI/CD pipeline
-    url: /docs/1-introduction/ci-cd-pipeline
+    url: /docs/2-heuristic-model/ci-cd-pipeline
   
 - name: III Deployment
   url: /docs/3-first-deployment/
