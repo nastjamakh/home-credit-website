@@ -1,53 +1,57 @@
-- name: Set Up | Start here
+- name: Setting Up
   url: /docs/0-setup/
   submenu:
   - text: Development setup
-    url: /docs/0-setup/
+    url: /docs/development-setup/
   - text: Loading data
-    url: /docs/0-setup/#data
+    url: /docs/loading-data
   - text: Setting up project locally
-    url: /docs/0-setup/#project-setup
+    url: /docs/setup/#project-setup
     
-- name: I Business Problem
+- name: I The Problem
   url: /docs/1-introduction/
   submenu:
-  - text: What problem are we trying to solve
-    url: /docs/1-introduction/
+  - text: What business problem are we trying to solve
+    url: /docs/introduction/
+  - text: Data Overview
+    url: /docs/introduction/
   - text: ML vs no ML
-    url: /docs/1-introduction#ml-vs-no-ml
+    url: /docs/introduction#ml-vs-no-ml
   
-- name: II Heuristic Model
+- name: II Heuristic Solution
   url: /docs/2-heuristic-model/
   submenu:
-  - text: MVP model
-    url: /docs/2-heuristic-model
-  - text: Project setup
-    url: /docs/2-heuristic-model/project-setup
-  - text: Unit Tests
-    url: /docs/2-heuristic-model/unit-tests
-  - text: CI/CD pipeline
-    url: /docs/2-heuristic-model/ci-cd-pipeline
-  
-- name: III Deployment
+  - text: Data Exploration
+    url: /docs/heuristic-model
+  - text: From a Notebook to a Script
+    url: /docs/heuristic-model/project-setup
+  - text: Model Serving (API)
+    url: /docs/heuristic-model/project-setup
+
+- name: III Builing a Service
   url: /docs/3-first-deployment/
   submenu:
-  - text: "Cloud storage: model artifacts"
-    url: /docs/3-first-deployment/
   - text: Container registry
     url: /docs/3-first-deployment/container-registry
+  - text: Cloud Storage
+    url: /docs/3-first-deployment/
+  - text: CI/CD pipeline
+    url: /docs/2-heuristic-model/ci-cd-pipeline
   - text: Training on the cloud
     url: /docs/3-first-deployment/training
   - text: Deploying web app
     url: /docs/3-first-deployment/deployment
+  - text: Testing
+    url: /docs/2-heuristic-model/unit-tests
 
-- name: IV Machine Learning
+- name: IV Introducing ML
   url: /docs/4-modelling/
   submenu:
   - text: Feature engineering (manual)
     url: /docs/4-modelling/feature-engineering#domain
   - text: Feature engineering (automated)
     url: /docs/4-modelling/feature-engineering#automated
-  - text: Modelling & Model selection
+  - text: Model selection
     url: /docs/4-machine-learning/modelling
   - text: Feature Selection
     url: /docs/4-machine-learning/feature-selection
@@ -56,18 +60,18 @@
   - text: Explaining our model
     url: /docs/4-machine-learning/explainability
 
-- name: V MLOps
+- name: V Maintananing & Iterating with MLOps
   url: /docs/5-mlops/
   submenu:
-  - text: Logging and alerting
+  - text: Monitoring service health
     url: /docs/5-mlops/logging
-  - text: Monitoring performance
+  - text: Monitoring model performance
     url: /docs/5-mlops/monitoring#performance
-  - text: Monitoring KPIs
+  - text: Monitoring business KPIs
     url: /docs/5-mlops/monitoring#kpis
   - text: Modular ML pipelines
     url: /docs/5-mlops/ml-pipelines
-  - text: Scheduling jobs
+  - text: Scheduling tasks
     url: /docs/5-mlops/scheduling
   - text: Experimentation
     url: /docs/5-mlops/experimentation

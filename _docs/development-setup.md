@@ -1,6 +1,7 @@
 ---
 layout: doc
-title: A (Very Quick)  Development Setup
+title: Setting Up
+subtitle: A (Very Quick) Development Setup
 date: 2022-05-22
 post_image: assets/images/service-icon3.png
 tags: [Profile]

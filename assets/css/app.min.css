@@ -45,7 +45,7 @@
 
 html {
     font-family: sans-serif;
-    line-height: 1.15;
+    line-height: 1.5;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent
 }
@@ -91,7 +91,9 @@ h4,
 h5,
 h6 {
     margin-top: 0;
-    margin-bottom: .5rem
+    margin-bottom: .5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 3rem;
 }
 
 p {
@@ -16137,7 +16139,7 @@ ul.slimmenu>li:first-child {
 .highlight .kp,
 .highlight .kr,
 .highlight .nt {
-    color: #ffd700
+    color: #ffcc33
 }
 
 .highlight .cp,
@@ -16473,7 +16475,7 @@ a {
 }
 
 a:hover {
-    color: #ffd700
+    color: #ffcc33
 }
 
 ol li,
@@ -16622,7 +16624,7 @@ iframe {
 .home-top {
     width: 40px;
     height: 40px;
-    background-color: #ffd700;
+    background-color: #ffcc33;
     position: fixed;
     right: 30px;
     bottom: 30px;
@@ -16671,7 +16673,7 @@ iframe {
 h1,
 h2,
 h3 {
-    color: #000;
+    color: #ffb347;
     font-weight: 600
 }
 
@@ -16697,7 +16699,7 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-    color: #ffd700
+    color: #ffcc33
 }
 
 .heading-large {
@@ -16777,7 +16779,7 @@ h6 a:hover {
 }
 
 .bg-color2 {
-    background-color: #ffd700
+    background-color: #ffcc33
 }
 
 .bg-color3 {
@@ -16864,16 +16866,17 @@ h6 a:hover {
 }
 
 .bg-cover1 {
-    background-color: #ffd700;
+    /* background-color: #ffcc33;*/
+    background-image: linear-gradient(180deg, #ffb347, #ffcc33);
     color: #000000;
 }
 
 .bg-cover2 {
-    background: url(../images/bg-pattern2.svg) 0% no-repeat, linear-gradient(0deg, #ffd700, #062e51)
+    background: url(../images/bg-pattern2.svg) 0% no-repeat, linear-gradient(0deg, #ffcc33, #062e51)
 }
 
 .overlay-color {
-    background: #ffd700;
+    background: #ffcc33;
     background: rgba(13, 101, 176, .9);
     position: absolute;
     left: 0;
@@ -16915,9 +16918,9 @@ h6 a:hover {
 .btn-style1:active,
 .btn-style1:focus,
 .btn-style1:hover {
-    color: #ffd700;
+    color: #ffcc33;
     background-color: #fff;
-    border: 1px solid #ffd700
+    border: 1px solid #ffcc33
 }
 
 .btn-style2 {
@@ -16929,7 +16932,7 @@ h6 a:hover {
     padding: 15px 30px;
     color: #fff;
     border-radius: 4px;
-    background-color: #ffd700;
+    background-color: #ffcc33;
     transition-property: color;
     transition-duration: .3s;
     font-weight: 600;
@@ -16956,7 +16959,7 @@ h6 a:hover {
 .btn-style2:active,
 .btn-style2:focus,
 .btn-style2:hover {
-    color: #ffd700;
+    color: #ffcc33;
     border: 1px solid rgba(0, 1, 1, .01)
 }
 
@@ -16984,7 +16987,7 @@ h6 a:hover {
 .btn-style3:hover {
     color: #fff !important;
     background-color: #000 !important;
-    border: 1px solid #ffd700
+    border: 1px solid #ffcc33
 }
 
 .header-area {
@@ -17300,14 +17303,14 @@ h6 a:hover {
     border: 0;
     background-color: #fff;
     padding: 15px 30px;
-    color: #ffd700
+    color: #ffcc33
 }
 
 .modal-search-form button:active,
 .modal-search-form button:focus,
 .modal-search-form button:hover {
     background-color: #fff !important;
-    color: #ffd700 !important
+    color: #ffcc33 !important
 }
 
 .tag-widget {
@@ -17329,7 +17332,7 @@ h6 a:hover {
 
 .tag-widget a:hover {
     color: #fff;
-    background-color: #ffd700
+    background-color: #ffcc33
 }
 
 
@@ -17368,7 +17371,9 @@ h6 a:hover {
     top: 0;
     bottom: 0;
     z-index: 4;
-    background: #ffd700
+    /*background: #ffcc33; 
+    background-image: linear-gradient(180deg, #11998e, #38ef7d);*/
+    background-image: linear-gradient(180deg, #ffb347, #ffcc33);
 }
 
 .full-padding {
@@ -17397,14 +17402,14 @@ h6 a:hover {
     border: 0;
     background-color: #fff;
     padding: 15px 30px;
-    color: #ffd700
+    color: #ffcc33
 }
 
 .slider-search-form button:active,
 .slider-search-form button:focus,
 .slider-search-form button:hover {
     background-color: #fff !important;
-    color: #ffd700 !important
+    color: #ffcc33 !important
 }
 
 .slider-content {
@@ -17600,7 +17605,7 @@ h6 a:hover {
     content: "";
     width: 30px;
     height: 2px;
-    background-color: #ffd700;
+    background-color: #ffcc33;
     display: block;
     bottom: -14px;
     position: absolute
@@ -17697,7 +17702,7 @@ h6 a:hover {
     border: 3px solid #000;
     display: table;
     transition: all .5s ease 0s;
-    background-color: #ffd700;
+    background-color: #ffcc33;
     width: 100%
 }
 
@@ -17713,7 +17718,7 @@ h6 a:hover {
     color: #fff;
     text-align: center;
     padding: 15px 5px;
-    background-color: #ffd700;
+    background-color: #ffcc33;
     width: 70px;
     border-radius: 50%;
     height: 70px
@@ -17766,7 +17771,7 @@ h6 a:hover {
 }
 
 .faq-accordion .card .card-header {
-    background-color: #ffd700
+    background-color: #ffcc33
 }
 
 .faq-accordion .card .card-header button[type=button] {
@@ -17796,7 +17801,7 @@ h6 a:hover {
 
 .pupolar-article .popular-article-top .popular-top-logo .popular-logo-icon {
     padding-right: 15px;
-    border-right: 1px solid #ffd700
+    border-right: 1px solid #ffcc33
 }
 
 .pupolar-article .popular-top-title {
@@ -17827,7 +17832,7 @@ h6 a:hover {
 .pupolar-article .popular-article-list li:before {
     content: "\f09e";
     font-family: FontAwesome;
-    color: #ffd700;
+    color: #ffcc33;
     position: relative;
     position: absolute;
     left: 0;
@@ -17868,7 +17873,7 @@ h6 a:hover {
 
 .pupolar-item .popular-item-top .popular-top-logo .popular-logo-icon {
     padding-right: 15px;
-    border-right: 1px solid #ffd700
+    border-right: 1px solid #ffcc33
 }
 
 .pupolar-item .popular-top-title {
@@ -17899,7 +17904,7 @@ h6 a:hover {
 .pupolar-item .popular-item-list li:before {
     content: "\f0e7";
     font-family: FontAwesome;
-    color: #ffd700;
+    color: #ffcc33;
     position: relative;
     position: absolute;
     left: 0;
@@ -17923,7 +17928,7 @@ h6 a:hover {
 
 .pupolar-article-area2 .pupolar-article .popular-article-top {
     padding: 20px 30px;
-    background: #ffd700;
+    background: #ffcc33;
     background: rgba(13, 101, 176, .1)
 }
 
@@ -17963,7 +17968,7 @@ h6 a:hover {
 }
 
 .testimonial-item .testimonial-rating i {
-    color: #ffd700
+    color: #ffcc33
 }
 
 .testimonial-item .testimonial-name {
@@ -18096,7 +18101,7 @@ h6 a:hover {
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    background-color: #ffd700;
+    background-color: #ffcc33;
     transition: all .2s ease 0s
 }
 
@@ -18171,7 +18176,7 @@ h6 a:hover {
 }
 
 .looking-for-service:hover {
-    background-color: #ffd700;
+    background-color: #ffcc33;
     box-shadow: 0 0 20px 5px rgba(33, 107, 188, .03)
 }
 
@@ -18191,7 +18196,7 @@ h6 a:hover {
 
 .looking-for-service:hover .btn {
     background-color: #fff;
-    color: #ffd700
+    color: #ffcc33
 }
 
 .newsletter-form {
@@ -18209,7 +18214,7 @@ h6 a:hover {
 }
 
 .newsletter-form input[type=text]:focus {
-    border: 1px solid #ffd700
+    border: 1px solid #ffcc33
 }
 
 .newsletter-form button[type=submit] {
@@ -18217,7 +18222,7 @@ h6 a:hover {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     padding: 15px 15px;
-    background-color: #ffd700
+    background-color: #ffcc33
 }
 
 @media (max-width:768px) {
@@ -18260,7 +18265,7 @@ h6 a:hover {
 }
 
 .form-action .form-group .form-control:focus {
-    border: 1px solid #ffd700
+    border: 1px solid #ffcc33
 }
 
 .form-action .form-group .form-check-input {
@@ -18312,7 +18317,7 @@ h6 a:hover {
     right: 0;
     display: inline-block;
     background: #fff;
-    color: #ffd700;
+    color: #ffcc33;
     z-index: 25;
     font-size: 16px;
     line-height: 40px;
@@ -18461,7 +18466,7 @@ h6 a:hover {
     font-size: 13px;
     font-family: fontawesome;
     margin-right: 10px;
-    color: #ffd700
+    color: #ffcc33
 }
 
 .company-slider .company-logo img {
@@ -18550,7 +18555,7 @@ h6 a:hover {
 
 .page-navigation .pagination li:first-child a,
 .page-navigation .pagination li:last-child a {
-    background-color: #ffd700;
+    background-color: #ffcc33;
     color: #fff
 }
 
@@ -18591,7 +18596,7 @@ h6 a:hover {
     content: "";
     width: 2px;
     height: 100%;
-    background-color: #ffd700;
+    background-color: #ffcc33;
     position: absolute;
     top: 0;
     left: 0
@@ -18636,7 +18641,7 @@ h6 a:hover {
 
 .single-post .single-tags-share .single-tags a:focus,
 .single-post .single-tags-share .single-tags a:hover {
-    color: #ffd700
+    color: #ffcc33
 }
 
 @media (min-width:768px) and (max-width:991px) {
@@ -18752,12 +18757,12 @@ h6 a:hover {
 }
 
 .page-pagination .next-btn:hover {
-    color: #ffd700;
+    color: #ffcc33;
     background-color: transparent
 }
 
 .page-pagination .prev-btn:hover {
-    color: #ffd700;
+    color: #ffcc33;
     background-color: transparent
 }
 
@@ -18803,7 +18808,7 @@ h6 a:hover {
 }
 
 .single-comment-desc .single-comment-btn {
-    color: #ffd700;
+    color: #ffcc33;
     font-size: 16px;
     line-height: 30px
 }
@@ -18824,7 +18829,7 @@ h6 a:hover {
 }
 
 .search-form-widget button[type=submit] {
-    background-color: #ffd700;
+    background-color: #ffcc33;
     font-size: 20px;
     line-height: 30px;
     color: #fff;
@@ -18859,7 +18864,7 @@ h6 a:hover {
 
 .category-widget li.list-group-active a,
 .category-widget li:hover a {
-    color: #ffd700
+    color: #ffcc33
 }
 
 .category-widget li:last-child {
@@ -18934,7 +18939,7 @@ h6 a:hover {
 
 .tag-widget li a:hover {
     color: #fff;
-    background-color: #ffd700
+    background-color: #ffcc33
 }
 
 .sidebar-widget {
@@ -18988,7 +18993,7 @@ h6 a:hover {
 .unorder-list li:before {
     content: "\f111";
     font-family: FontAwesome;
-    color: #ffd700;
+    color: #ffcc33;
     position: relative;
     position: absolute;
     left: 0;
@@ -19004,7 +19009,7 @@ h6 a:hover {
 }
 
 .order-list li a {
-    color: #ffd700
+    color: #ffcc33
 }
 
 .layout-wrapper p {
@@ -19037,7 +19042,7 @@ h6 a:hover {
 .sidebar-menu [aria-expanded*=false]:after {
     content: "\f105";
     font-family: fontawesome;
-    color: #ffd700;
+    color: #ffcc33;
     position: absolute;
     right: 0
 }
@@ -19045,7 +19050,7 @@ h6 a:hover {
 .sidebar-menu [aria-expanded*=true]:after {
     content: "\f107";
     font-family: fontawesome;
-    color: #ffd700;
+    color: #ffcc33;
     position: absolute;
     right: 0
 }
@@ -19304,7 +19309,7 @@ h6 a:hover {
 .team-style .team-content .team-socials li {
     width: 19%;
     text-align: center;
-    background-color: #ffd700;
+    background-color: #ffcc33;
     margin: 0
 }
 
@@ -19346,7 +19351,7 @@ h6 a:hover {
 }
 
 .footer-copyright p a {
-    color: #ffd700
+    color: #ffcc33
 }
 
 ul#results-container {
@@ -19527,7 +19532,7 @@ h2 a.header-link:hover {
 }
 
 .doc-content a {
-    color: #ffd700
+    color: #ffcc33
 }
 
 div#table-of-contents {
@@ -19590,13 +19595,13 @@ div#modal {
     line-height: 1.4;
     cursor: pointer;
     border-radius: 50%;
-    color: #ffd700;
+    color: #ffcc33;
     transition: all ease .2s
 }
 
 .custom-links ul li i:hover {
-    background: #ffd700;
-    border-color: #ffd700;
+    background: #ffcc33;
+    border-color: #ffcc33;
     color: #fff;
     transition: all ease .2s
 }
@@ -19612,7 +19617,7 @@ div#modal {
 }
 
 .custom-links ul li a:hover {
-    border-left: 1px solid #ffd700
+    border-left: 1px solid #ffcc33
 }
 
 .tutorial-content.mx-auto {

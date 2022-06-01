@@ -1,7 +1,7 @@
 ---
 layout: doc
-title: Introduction. What Problem Are We Trying to Solve?
-date: 2019-09-08 8:14:30 +0600
+title: The Problem
+subtitle: What Are We Trying to Solve?
 post_image: assets/images/service-icon3.png
 tags: [Profile]
 toc: true
@@ -58,7 +58,6 @@ Some considerations:
 Does it make sense to use ML or a heuristic approach will do? Not every Data Science Product must be a ML learning model served as a microservice. Why build a complex neural network when a Logistic Regression workd just fine (not to mention, much faster)? Think of the time investment when building the solition, as well as resources required.
 
 ### Checklist: Questions to ask yourself
-#### (and your stakeholders)
 
 * Who are your stakeholders & what do they want? Are they committed to the project?
 * Does it Have Potential?

@@ -2,6 +2,10 @@
     <div class="page-title-wrapper section-spacing">
         <div class="page-title text-center black-text">
             <h1 class="heading-1">{{page.title}}</h1>
+
+            {% if page.subtitle %}	
+            <h2 class="doc-subtitle">{{page.subtitle}}</h2>
+            {% endif %}
         </div>
     </div>
 </section>
